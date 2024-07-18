@@ -623,8 +623,11 @@ footer{
 
 }
 .icon{
+    width: 600px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     /* justify-content: space-around; */
     margin-top: 2rem;
     gap: 2rem;
@@ -654,7 +657,8 @@ footer{
     font-weight: 800;
     line-height: 40px;
     letter-spacing: 0%;
-    text-align: left;    
+    text-align: left; 
+    margin-bottom: 2rem;   
 }
 
 .footer-discription{
@@ -673,4 +677,42 @@ footer{
     justify-content: center;
 
 }
+.line{
+    color: white;
+    width:600px;
+    margin-top: 2rem;
+}
 /* footer section styles end */
+
+
+
+.ham-bar{
+    display: none;
+}
+
+
+.copy-right p{
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.527);
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+
+/* Responsive website start*/
+
+@media screen and (max-width: 776px) {
+  .nav-menu {
+    display: none;
+
+  }
+  .ham-bar {
+    display: block;
+}
+.ham-bar {
+    font-size: 2rem;
+}
+.nav-title{
+    font-size: 1.5rem;
+}
+
+}
